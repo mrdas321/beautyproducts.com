@@ -1,0 +1,416 @@
+body{padding: 0;
+	margin: 0;
+	background-image: url(../images/bg.jpg);
+	background-size:100% 670px;
+	background-attachment: fixed;
+}
+/* starts nav coding */
+nav{
+	width: 100%;
+	height: 270px;
+	background-color:rgba(0,0,0,0.8);
+	float: left;
+	box-sizing: border-box;
+	padding:30px;
+}
+#profile_picture{
+	width: 200px;
+	height: 200px;
+	border: 1px solid white;
+	float: left;
+	background-color: aqua;
+	border-radius: 50%;
+	background-image: url("../images/profile_picture.png");
+}
+
+
+#welcome{
+	color:white;
+	font-size:80px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	transition: 0.5s;
+}
+#welcome:hover {
+	text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+		0 3px 0 #ccc, 0 4px 0 #ccc,
+		0 5px 0 #ccc, 0 6px 0 #ccc,
+		0 7px 0 #ccc, 0 8px 0 #ccc,
+		0 9px 0 #ccc, 0 10px 0 #ccc,
+		0 11px 0 #ccc, 0 12px 0 #ccc,
+		0 20px 30px rgba(0, 0, 0, 0.5);
+}
+#menu{
+	width:750px;
+	height: 70px;
+	box-sizing: border-box;
+	margin-top:10px;
+	
+
+}
+#nav_item{
+	width: 20%;
+	height: 70px;
+	border:2px solid white;
+	box-sizing: border-box;
+	text-align: center;
+
+
+}
+a{
+	color: white;
+	text-decoration: none;
+	font-family: sans-sarif;
+	font-size: 20px;
+}
+/* ends nav coding */
+/*start homepage section coding*/
+#home_section{
+	width: 700px;
+	height: 407px;
+	box-sizing: border-box;
+	float: right;
+	background-image: url(../images/s_bg.png);
+}
+#logo{
+	width: 150px;
+	height: 150px;
+	box-sizing: border-box;
+	border: 5px solid white;
+	margin-left: 150px;
+	margin-top: 120px;
+}
+#logo_text{
+	margin: 0;
+	padding: 0;
+	color:White;
+	font-size: 150px;
+	margin-top: -18px;
+}
+#domain{
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 40px;
+	text-align: center;
+	margin-left: 150px;
+}
+
+
+/*end homepage section coding*/
+/*start loginpage nav coding*/
+#domain_name{
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-align: center;
+	font-size: 60px;
+	font-family: sans-serif;
+}
+
+
+
+/*end loginpage nav coding*/
+/* start loginpage section coding*/
+
+fieldset{
+	width: 380px;
+	height: 250px;
+	border-width: 3px;
+	border-style: solid;
+	border-color: white;
+	margin-left: 150px;
+	padding: 30px;
+}
+#login_section{
+	width: 700px;
+	height: 407px;
+	box-sizing: border-box;
+	float: right;
+	background-image: url(../images/s_bg.png);
+	padding: 40px;
+}
+legend{
+	font-family: century gothic;
+	color: #fff;
+	font-size:30px;
+	font-weight: bold;
+}
+#login_form{
+	font-family: century gothic;
+	color:white;
+	font-size: 20px;
+}
+#username{
+	width: 100%;
+	height:30px;
+	background-color: inherit;
+	border: none;
+	border: 2px solid white;
+	margin-top:10px;
+	color: white;
+	font-size: 17px;
+	margin-bottom: 20px;
+}
+#password{
+	width: 100%;
+	height:30px;
+	background-color: inherit;
+	border: none;
+	border: 2px solid white;
+	margin-top:10px;
+	color: white;
+	font-size: 17px;
+
+}
+#login_btn{
+	width: 150px;
+	height: 35px;
+	float: right;
+	margin-top: 20px;
+	background-color: inherit;
+	border: none;
+	border: 2px solid white;
+	color: white;
+	font-family: century gothic;
+	font-size:17px;
+
+
+}
+/* end loginpage section coding*/
+/*start signup page section codig*/
+#signup_section{
+	width: 700px;
+	height: 507px;
+	box-sizing: border-box;
+	float: right;
+	background-image: url(../images/s_bg.png);
+	padding: 40px;
+	padding-top: 20px;
+}
+#signup_fieldset{
+	width: 380px;
+	height: 400px;
+	border-width: 3px;
+	border-style: solid;
+	border-color: white;
+	margin-left: 170px;
+	padding: 20px;
+	padding-left: 15px;
+}
+#signup_form{
+	font-family: century gothic;
+	color:white;
+	font-size: 20px;
+}
+#Phone_number,#email,#create_password{
+	width: 100%;
+	height:30px;
+	background-color: inherit;
+	border: none;
+	border: 2px solid white;
+	margin-top:10px;
+	color: white;
+	font-size: 17px;
+
+}
+#sign_up-btn{
+	width: 150px;
+	height: 35px;
+	float: right;
+	margin-top: 20px;
+	background-color: inherit;
+	border: none;
+	border: 2px solid white;
+	color: white;
+	font-family: century gothic;
+	font-size:17px;
+	box-sizing: border-box;
+	
+
+}
+
+
+/*end signup page section codig*/
+/* start contact page section coding */
+#contact{
+	color: white;
+	font-size: 20px;
+	font-style: normal;
+	font-family: century gothic;
+	line-height: 30px;
+
+}
+/* end contact page section coding */
+/*start product page sectin coding*/
+#product_section{
+	width: 100%;
+	height: 2900px;
+	float: left;
+	box-sizing: border-box;
+
+}
+#brand{
+	width: 100%;
+	height: 400px;
+	background-color: rgba(255, 255,255,0.8);
+	float: left;
+	box-sizing: border-box;
+}
+
+#brand_heading{
+	text-align: center;
+	font-family: century gothic;
+	font-size:40px;
+}
+#brand_pic{
+	width: 200px;
+	height: 80px;
+	float: left;
+	box-sizing:borde-box;
+	border:3px solid black;
+	margin: 30px;
+	margin-top: 10px;
+}
+#search{
+	width:60%;
+	height: 50px;
+	box-sizing: border-box;
+	float: left;
+	margin-left: 20%;
+	margin-right:20%;
+	margin-top: 20px;
+	border:none;
+	border: 1px solid #ccc;
+	font-size: 18px;
+	padding: 10px;
+	background-image: url(../images/search.png);
+	background-size:50px 40px;
+	background-repeat: no-repeat;
+	background-position: right;
+
+}
+#loreal_products,#dove_products,#lotus_products,#lakme_products,#olay_products{
+	width: 100%;
+	height:500px;
+	float: left;
+	box-sizing: border-box;
+	background-color: rgba(0,0,0,0.8);
+}
+#loreal{
+	color: white;
+	text-align: center;
+	font-family: century gothic;
+	font-size: 35px;
+}
+#dove{
+	color: white;
+	text-align: center;
+	font-family: century gothic;
+	font-size: 35px;
+}
+#lotus{
+	color: white;
+	text-align: center;
+	font-family: century gothic;
+	font-size: 35px;
+}
+#lakme{
+	color: white;
+	text-align: center;
+	font-family: century gothic;
+	font-size: 35px;
+}
+#olay{
+	color: white;
+	text-align: center;
+	font-family: century gothic;
+	font-size: 35px;
+}
+#loreal_products_pic{
+	width:250px;
+	height:320px;
+	border:2px solid white;
+	float: left;
+	box-sizing: border-box;
+	margin: 43px;
+}
+#dove_products_pic{
+	width:250px;
+	height:320px;
+	border:2px solid white;
+	float: left;
+	box-sizing: border-box;
+	margin: 43px;
+}
+#lotus_products_pic{
+	width:250px;
+	height:320px;
+	border:2px solid white;
+	float: left;
+	box-sizing: border-box;
+	margin: 43px;
+	
+}
+#lakme_products_pic{
+	width:250px;
+	height:320px;
+	border:2px solid white;
+	float: left;
+	box-sizing: border-box;
+	margin: 43px;
+
+}
+#olay_products_pic{
+	width:250px;
+	height:320px;
+	border:2px solid white;
+	float: left;
+	box-sizing: border-box;
+	margin: 43px;
+
+
+}
+#product_name{
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+	margin: 0;
+	padding:0;
+	margin-top: 7px;
+	font-size: 18px;
+}
+#product_price{
+	padding: 0;
+	margin: 0;
+	color: white;
+	margin:8px;
+	font-family: sans-serif;
+	float: left;
+	
+}
+#buy{
+	padding: 0;
+	margin: 0;
+	color: white;
+	margin:8px;
+	font-family: sans-serif;
+	float: right;
+}
+
+
+/*end product page sectin coding*/
+/*footer starts here */
+footer{
+	width: 100%;
+	height: 60px;
+	box-sizing: border-box;
+	float: left;
+	background-color: rgba(255, 255,255,0.8);
+	text-align: center;
+}
+/*footer ends here */
+
+
